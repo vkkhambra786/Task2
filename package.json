@@ -1,0 +1,23 @@
+{
+  "name": "19nov",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "concurrently \"nodemon main.js\" \"node message.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "execa": "^8.0.1",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.1",
+    "nodemon": "^3.1.0",
+    "os": "^0.1.2"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
